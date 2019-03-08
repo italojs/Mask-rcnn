@@ -1,6 +1,6 @@
 # MASK-RCNN implementation
 
- It's a package to generate "AI buzzword images" 
+ It's a script to generate "AI buzzword images" 
 
 ## Install
 ```
