@@ -56,6 +56,8 @@ optional arguments:
 python3 generate-video.py --classes_path <path>/object_detection_classes_coco.txt --inception <path>/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt --frozen_inference <path>/frozen_inference_graph.pb --video_path <path>/video.mp4 --output <path>/video-output.mp4 
 ``` 
 
+your videos will be processed and saved in output path
+
 ## Full usage
 ```
 python3 generate-video.py --classes_path <path>/object_detection_classes_coco.txt --inception <path>/mask_rcnn_inception_v2_coco_2018_01_28.pbtxt --frozen_inference <path>/frozen_inference_graph.pb --video_path <path>/video.mp4 --output <path>/video-output.mp4 --confidence 0.65 --threshold 0.3
