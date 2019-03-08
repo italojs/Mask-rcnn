@@ -49,7 +49,7 @@ while True:
         if total > 0:
             elap = (end - start)
             print("[INFO] {:.2f} seconds to predict a unique frame".format(elap))
-            print("[INFO] estimated total time to finish: {:.2f} seconds".format(
+            print("[INFO] estimated total time to finish: {:.2f} minutes".format(
                 (elap * total)/60))
 
     writer.write(drawed_image)
